@@ -1,0 +1,90 @@
+
+# Copyright (C) 2000, 2001, 2002, James R Barcelona <barce@cyphgen.com>,
+# All Rights Reserved.
+# Permission is granted to copy and modify this program for
+# non-commercial purposes, so long as this copyright notice is
+# preserved.  This software is distributed without warranty.
+# Commercial users must contact the author for licensing terms.
+
+/*****************************************
+ *                                       *
+ *               DNA Hash                *
+ *                                       *
+ *****************************************/
+
+DNA Hash is a set of programs that:
+	(1) Create permutations of DNA sequences
+	(2) Model the steganographic method of encryption
+		using DNA sequences.
+
+Just type make to build.
+
+Currently part (1) is finished, but part (2) is almost 
+there
+
+genperms - useful when creating a list of DNA sequences
+mapped to alphanumeric characters.
+
+	usage: ./genperms -p length
+		where length is the length of the DNA sequence
+
+driver - a sample of what the DNAHash classes can do. It takes
+a message and encrypts it into DNA sequences, and then decrypts it.
+
+Edit the "Strings Message" variable as you see fit in the file, mdriver.cc.
+
+	usage: ./mdriver
+		mdriver will encrypt and then decrypt the Strings Message.
+ 
+Primers, the markers for where the encrypted sequence
+starts and ends, are finally implemented!
+
+mdriver - (STILL NEEDS WORK) the driver for the message class.
+
+/*****************************************
+ *                                       *
+ *            Historical Notes           *
+ *                                       *
+ *****************************************/
+
+11 March 2002
+
+Mdriver now implements primers, but doesn't "mirror" the process
+of using primers to find a message in a batch of DNA. This mirrorring
+will be the next process. Also, argument handlers need to be added
+to mdriver.
+
+12 May 2001
+
+Genperms now takes an argument -p which is the length of
+the string for permutations.
+
+25 August 2000
+
+Genperms is a program that generates permutations of the
+DNA base pairs.
+
+
+12 August 2000
+
+Primer class has been added, as well as two new functions, encode and
+decode, which will be put into a message class later on.
+
+Base pairs >3 are supported.
+
+The driver reads a string from a file called message and encodes that string.
+
+4 August 2000
+A dnakey file consists of a char followed by a base pair sequence.
+
+For example:
+A
+CCG
+B
+CCA
+C
+CCT
+
+Currently the hash class supports base pair sequences of 3 chars.
+
+# $Header: /usr/local/cvsroot/dnahash/README,v 1.3 2001/05/13 03:06:34 barce Exp $

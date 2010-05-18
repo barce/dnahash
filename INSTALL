@@ -1,0 +1,8 @@
+Installation
+------------
+1) At the prompt type:
+             make
+   This will create genperms, mdriver, and driver.
+
+---
+$Id: INSTALL,v 1.2 2001/05/13 03:06:34 barce Exp $
