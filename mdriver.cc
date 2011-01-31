@@ -22,10 +22,10 @@ int main(void)
 
 	primer *pBarce1, *pBarce2;
 
-	// pBarce = new primer("START", "AAAAAAAAA");
-	pBarce1 = new primer("START", "123456789");
-	pBarce2 = new primer("END", "123456789");
-	// pBarce = new primer("END", "AAAAAAAAC");
+	pBarce1 = new primer("START", "AAAAAAAAA");
+	// pBarce1 = new primer("START", "123456789");
+	// pBarce2 = new primer("END", "123456789");
+	pBarce2 = new primer("END", "AAAAAAAAC");
 
 	/* 
 
