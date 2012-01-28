@@ -61,14 +61,80 @@ int main(int argc, char** argv)
 		} // end while
 	} // endif for opts
 
-	int len = 4;	// elements in array Sequence
+	// int len = 4;	// elements in array Sequence
+	int len = 60;	// elements in array Sequence
 	int strlen = p;	// length of each Permutation String
 	Strings *Sequence = new Strings[len];
 
+/*
 	Sequence[0] = "A";
 	Sequence[1] = "C";
 	Sequence[2] = "G";
 	Sequence[3] = "T";
+*/
+
+Sequence[0] = "a";
+Sequence[1] = "b";
+Sequence[2] = "c";
+Sequence[3] = "d";
+Sequence[4] = "e";
+Sequence[5] = "f";
+Sequence[6] = "g";
+Sequence[7] = "h";
+Sequence[8] = "i";
+Sequence[9] = "j";
+Sequence[10] = "k";
+Sequence[11] = "l";
+Sequence[12] = "m";
+Sequence[13] = "n";
+Sequence[14] = "o";
+Sequence[15] = "p";
+Sequence[16] = "q";
+Sequence[17] = "r";
+Sequence[18] = "s";
+Sequence[19] = "t";
+Sequence[20] = "u";
+Sequence[21] = "v";
+Sequence[22] = "w";
+Sequence[23] = "x";
+Sequence[24] = "y";
+Sequence[25] = "z";
+Sequence[26] = "A";
+Sequence[27] = "B";
+Sequence[28] = "C";
+Sequence[29] = "D";
+Sequence[30] = "E";
+Sequence[31] = "F";
+Sequence[32] = "G";
+Sequence[33] = "H";
+Sequence[34] = "I";
+Sequence[35] = "J";
+Sequence[36] = "K";
+Sequence[37] = "L";
+Sequence[38] = "M";
+Sequence[39] = "N";
+Sequence[40] = "O";
+Sequence[41] = "P";
+Sequence[42] = "Q";
+Sequence[43] = "R";
+Sequence[44] = "S";
+Sequence[45] = "T";
+Sequence[46] = "U";
+Sequence[47] = "V";
+Sequence[48] = "W";
+Sequence[49] = "X";
+Sequence[50] = "Y";
+Sequence[51] = "Z";
+Sequence[52] = "0";
+Sequence[53] = "1";
+Sequence[54] = "2";
+Sequence[55] = "3";
+Sequence[56] = "4";
+Sequence[57] = "5";
+Sequence[58] = "6";
+Sequence[59] = "7";
+Sequence[60] = "8";
+Sequence[61] = "9";
 	
 	perm("", Sequence, len, strlen);
 
