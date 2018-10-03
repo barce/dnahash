@@ -9,8 +9,10 @@
 #ifndef STRINGS
 #define STRINGS
 
-#include <iostream.h>
+#include <iostream>
 #include <string.h>
+
+using namespace std;
 
 class Strings
 {

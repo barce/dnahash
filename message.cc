@@ -1,11 +1,13 @@
 // A message is a combination of the primer and dnahash class
 
-#include <iostream.h>   // contains ios
-#include <fstream.h>            // contains ifstream
+#include <iostream>   // contains ios
+#include <fstream>            // contains ifstream
 #include <stdlib.h>             // contains exit()
 
 #include "strings.h"            // contains class Strings
 #include "message.h"
+
+using namespace std;
 
 message::message() 
 {

@@ -3,13 +3,14 @@
 // date: 9 August 2000
 // by: barce
 
-#include <iostream.h> 	// contains ios
-#include <fstream.h>		// contains ifstream
+#include <iostream> 	// contains ios
+#include <fstream>		// contains ifstream
 #include <stdlib.h>		// contains exit()
 
 #include "strings.h"		// contains class Strings
 #include "hash.h"			// contains hash class
 
+using namespace std;
 
 // The constructor
 hash::hash (void) {

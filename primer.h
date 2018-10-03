@@ -1,12 +1,13 @@
 // primer.h
 // --------
 // This is a hash class
-#include <iostream.h> 	// contains ios
-#include <fstream.h>		// contains ifstream
+#include <iostream> 	// contains ios
+#include <fstream>		// contains ifstream
 #include <stdlib.h>		// contains exit()
 
 #include "strings.h"		// contains class Strings
 
+using namespace std;
 
 class primer {
 private:

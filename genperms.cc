@@ -4,10 +4,12 @@
 // --------------------------------
 
 
-#include <iostream.h>
+#include <iostream>
 #include <unistd.h>
 #include <stdlib.h>
 #include "strings.h"
+
+using namespace std;
 
 static char *argv0=NULL;
 

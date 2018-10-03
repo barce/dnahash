@@ -1,7 +1,7 @@
 // This is the primer class
 
-#include <iostream.h>	// contains ios
-#include <fstream.h>		// contains ifstream
+#include <iostream>	// contains ios
+#include <fstream>		// contains ifstream
 #include <stdlib.h>		// contains exit()
 
 #include "strings.h"		// contains class Strings
